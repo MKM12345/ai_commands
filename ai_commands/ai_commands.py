@@ -2,6 +2,7 @@ import random
 from nltk.corpus import wordnet
 import re
 import nltk
+from textblob import TextBlob
 
 def ai_similarise(message):
    """
@@ -50,3 +51,45 @@ def ai_similarise(message):
     message = vary_sentence_structure(message)
 
     return message
+def analyze_sentiment(text):
+    """
+    Analyze the sentiment of a text using Natural Language Processing (NLP).
+
+    Parameters:
+    text (str): The input text to be analyzed.
+
+    Returns:
+    dict: A dictionary containing the sentiment label, sentiment score, and a sentiment summary.
+    """
+    analysis = TextBlob(text)
+    sentiment_score = analysis.sentiment.polarity
+
+    if sentiment_score > 0:
+        sentiment_label = "positive"
+        sentiment_summary = "This text expresses a positive sentiment."
+    elif sentiment_score < 0:
+        sentiment_label = "negative"
+        sentiment_summary = "This text expresses a negative sentiment."
+    else:
+        sentiment_label = "neutral"
+        sentiment_summary = "This text appears to be neutral in sentiment."
+
+    result = {
+        "sentiment_label": sentiment_label,
+        "sentiment_score": sentiment_score,
+        "sentiment_summary": sentiment_summary
+    }
+
+    return result
+
+text_to_analyze = "The cat is stupid and I hate her"
+
+result = analyze_sentiment(text_to_analyze)
+
+sentiment_label = result["sentiment_label"]
+sentiment_score = result["sentiment_score"]
+sentiment_summary = result["sentiment_summary"]
+
+print("Sentiment Label:", sentiment_label)
+print("Sentiment Score:", sentiment_score)
+print("Sentiment Summary:", sentiment_summary)
