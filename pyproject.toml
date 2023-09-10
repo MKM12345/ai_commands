@@ -1,9 +1,18 @@
-[build-system]
-requires = ["setuptools>=42", "wheel", "nltk", "textblob"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "ai_commands"
+version = "0.1.0"
+authors = [
+  { name="MKM12345"},
+]
+description = "A Python package for simple but complex computer functions."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 
-[tool.isort]
-profile = "black"
-
-[tool.black]
-line-length = 88
+[project.urls]
+"Homepage" = "https://github.com/MKM12345/ai-commands"
+"Bug Tracker" = "https://github.com/MKM12345/ai-commands/issues"
