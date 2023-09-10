@@ -5,7 +5,7 @@
 [![Python Version](https://img.shields.io/badge/Python-%3E%3D%203.7-blue?style=plastic.svg)](https://www.python.org/downloads/)
 [![PyPI Version](https://img.shields.io/badge/pypi%20package-0.1.0-4DC71F?style=plastic.svg)](https://pypi.org/project/ai-commands/)
 [![First Timer Friendly](https://img.shields.io/badge/first%20timer-friendly-4DC71F?style=plastic.svg)](https://github.com/yourusername/ai-commands/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-[![ai_commands Ideas](https://img.shields.io/github/issues-raw/yourusername/ai-commands/ai-commands-idea?color=4DC71F&label=ai-commands%20ideas)](https://github.com/yourusername/ai-commands/labels/ai-commands-idea)
+[![ai_commands Ideas](https://img.shields.io/github/issues-raw/MKM12345/ai-commands/ai-commands-idea?color=4DC71F&label=ai-commands%20ideas)](https://github.com/yourusername/ai-commands/labels/ai-commands-idea)
 [![Tests](https://img.shields.io/badge/tests-all%20passing-4DC71F?style=plastic.svg)](https://github.com/yourusername/ai-commands/actions)
 
 ## Overview
