@@ -5,7 +5,9 @@ import nltk
 
 def ai_similarise(message):
    """
-    Generates similar but varied text for a given input message using synonyms and sentence structure variation.
+    If you want a different wording to an output when a specific condition is met and gives an output, this will make things a little less boring!
+    
+    It generates similar but varied text for a given input message using synonyms and sentence structure variation.
 
     This function takes an input message and applies two main techniques to generate similar yet different text:
     1. Synonym Replacement: It replaces words in the message with synonyms when synonyms are available. This adds lexical variation to the text.
