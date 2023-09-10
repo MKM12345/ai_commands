@@ -27,3 +27,7 @@ def ai_similarise(message):
 
     return message
 
+# Example usage:
+original_message = "Sorry, you lost the game!"
+similar_message = ai_similarise(original_message)
+print(similar_message)
