@@ -9,7 +9,7 @@
 
 ## Overview
 
-`ai_commands` is a Python package designed to simplify common AI-related tasks and perform sentiment analysis on text data. It provides a collection of functions and utilities to streamline various AI tasks, making it easier for developers to work with artificial intelligence and natural language processing.
+`ai_commands` is a Python package designed to simplify common AI-related tasks such as performing sentiment analysis on text data. It provides a collection of functions and utilities to streamline various AI tasks, making it easier for developers to work with artificial intelligence and natural language processing.
 
 ### Features
 
