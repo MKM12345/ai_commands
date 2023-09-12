@@ -82,14 +82,5 @@ def analyze_sentiment(text):
 
     return result
 
-text_to_analyze = "The cat is stupid and I hate her"
 
-result = analyze_sentiment(text_to_analyze)
 
-sentiment_label = result["sentiment_label"]
-sentiment_score = result["sentiment_score"]
-sentiment_summary = result["sentiment_summary"]
-
-print("Sentiment Label:", sentiment_label)
-print("Sentiment Score:", sentiment_score)
-print("Sentiment Summary:", sentiment_summary)
