@@ -66,7 +66,13 @@ setup(
     install_requires=[
         "nltk",
         "textblob",
-        # Add any other dependencies here
+        "transformers",
+        "torch",
+        "networkx",
+        "langdetect",
+        "Pillow",
+        "spacy",
+        # Add any other dependencies for ai_commands functions here
     ],
     keywords=['python', 'AI', 'sentiment analysis', 'natural language processing'],
     classifiers=[
