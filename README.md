@@ -1,6 +1,6 @@
 # ai_commands
 
-![Package Logo](https://github.com/MKM12345/ai_commands/logo.png)
+![Package Logo](https://github.com/MKM12345/ai_commands/blob/main/logo.png)
 
 [![Python Version](https://img.shields.io/badge/Python-%3E%3D%203.7-blue?style=plastic.svg)](https://www.python.org/downloads/)
 [![PyPI Version](https://img.shields.io/badge/pypi%20package-0.1.0-4DC71F?style=plastic.svg)](https://pypi.org/project/ai_commands/)
