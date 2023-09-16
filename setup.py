@@ -4,7 +4,7 @@ VERSION = '1.0.0'
 DESCRIPTION = 'A Python package for simple but complex computer functions.'
 LONG_DESCRIPTION = """
 <div align="center">
-  <img src="https://github.com/MKM12345/ai_commands/logo.png">
+  <img src="https://github.com/MKM12345/ai_commands/blob/main/logo.png">
 </div>
 
 # ai_commands v1.0.0
