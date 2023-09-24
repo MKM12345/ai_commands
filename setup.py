@@ -63,18 +63,6 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=[
-        "nltk",
-        "textblob",
-        "transformers",
-        "torch",
-        "networkx",
-        "langdetect",
-        "Pillow",
-        "spacy",
-        # Add any other dependencies for ai_commands functions here
-    ],
-    keywords=['python', 'AI', 'sentiment analysis', 'natural language processing'],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
