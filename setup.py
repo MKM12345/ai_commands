@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 DESCRIPTION = 'A Python package for simple but complex computer functions.'
 LONG_DESCRIPTION = """
 <div align="center">
