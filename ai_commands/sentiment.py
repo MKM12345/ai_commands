@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
 
 class SentimentAnalyzer:
     def __init__(self):
@@ -28,6 +29,9 @@ class SentimentAnalyzer:
         
         # Calculate accuracy
         self.accuracy = accuracy_score(y_test, y_pred)
+        
+        # Classification report for sentiment score
+        self.classification_report = classification_report(y_test, y_pred, target_names=['negative', 'positive'])
 
     def predict_sentiment(self, text):
         new_text_tfidf = tfidf_vectorizer.transform([text])
@@ -38,4 +42,4 @@ class SentimentAnalyzer:
         else:
             sentiment = 'negative'
 
-        return sentiment, self.accuracy
+        return sentiment, self.accuracy, self.classification_report
