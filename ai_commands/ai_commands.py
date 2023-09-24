@@ -61,21 +61,11 @@ def analyze_sentiment(text):
     Returns:
     dict: A dictionary containing the sentiment label, sentiment score, and a sentiment summary.
     """
-    analysis = TextBlob(text)
-    sentiment_score = analysis.sentiment.polarity
+    sentiment, sentiment_score, accuracy = sentiment_analyzer.analyze_sentiment(text)
 
-    if sentiment_score > 0:
-        sentiment_label = "positive"
-        sentiment_summary = "This text expresses a positive sentiment."
-    elif sentiment_score < 0:
-        sentiment_label = "negative"
-        sentiment_summary = "This text expresses a negative sentiment."
-    else:
-        sentiment_label = "neutral"
-        sentiment_summary = "This text appears to be neutral in sentiment."
-
+    sentiment_summary = f"This text is {sentiment} with a sentiment score of {sentiment_score}."
     result = {
-        "sentiment_label": sentiment_label,
+        "sentiment_label": sentiment,
         "sentiment_score": sentiment_score,
         "sentiment_summary": sentiment_summary
     }
