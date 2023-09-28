@@ -16,3 +16,12 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/MKM12345/ai-commands"
 "Bug Tracker" = "https://github.com/MKM12345/ai-commands/issues"
+
+# Add tags here
+[project.metadata]
+tags = [
+  "python",
+  "AI",
+  "sentiment-analysis",
+  "natural-language-processing"
+]
